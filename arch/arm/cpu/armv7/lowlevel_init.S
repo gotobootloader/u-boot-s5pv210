@@ -39,3 +39,6 @@ ENTRY(lowlevel_init)
 	bl	s_init
 	pop	{ip, pc}
 ENDPROC(lowlevel_init)
+
+ENTRY(s_init)
+ENDPROC(s_init)

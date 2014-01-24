@@ -7,6 +7,8 @@
 
 extra-y	:= start.o
 
+obj-y += lowlevel_init.o
+
 obj-y	+= cache_v7.o
 
 obj-y	+= cpu.o
